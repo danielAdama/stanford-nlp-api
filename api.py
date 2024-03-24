@@ -34,7 +34,7 @@ def process():
                 return jsonify({
                         "BaseResponse":{
                                 "Status":True,
-                                "Messsage":"Operation successfully"
+                                "Messsage":"Operation successful"
                             },
                         "detections":json.loads(result),
                     }), config.HTTP_200_OK
