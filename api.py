@@ -20,7 +20,7 @@ def process():
         _logger.info(data)
         try:
             if not data:
-                _logger.warning("API PROCESS > please connect your camera")
+                _logger.warning("API PROCESS > please pass text data")
                 return jsonify({
                     "BaseResponse":{
                             "Status":False,
